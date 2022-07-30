@@ -18,7 +18,7 @@ do{
 	if (guess > goal) { cout << "You guessed too big number"<<endl; }
 	if (guess < goal) { cout << "You guessed too small number"<<endl; }
 } while (guess != goal);
-cout << "Congratulations! You found that number at "<<tryied<< " time!";
+cout << "Congratulations! You found that number at "<<tryied<< " time!"<<endl;
 
 return 0;
 }
